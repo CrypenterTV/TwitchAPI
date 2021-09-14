@@ -1,3 +1,5 @@
+package fr.crypenter.twitchapi;
+
 import fr.crypenter.twitchapi.EventMessageExample;
 import fr.crypenter.twitchapi.bot.TwitchBot;
 import fr.crypenter.twitchapi.channel.TwitchChannel;
