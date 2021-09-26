@@ -7,5 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="TwitchIRC_v1.2" level="project" />
+    <orderEntry type="library" name="gson-2.8.8" level="project" />
+    <orderEntry type="library" name="yamlconfiguration-1.0.1" level="project" />
   </component>
 </module>

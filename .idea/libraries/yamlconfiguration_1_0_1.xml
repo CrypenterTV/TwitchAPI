@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="yamlconfiguration-1.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Dependencies/Discord/yamlconfiguration-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

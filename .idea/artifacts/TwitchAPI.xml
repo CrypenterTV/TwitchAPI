@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TwitchAPI">
+    <output-path>$PROJECT_DIR$/out/artifacts/TwitchAPI</output-path>
+    <root id="archive" name="TwitchAPI.jar">
+      <element id="module-output" name="TwitchAPI" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Dependencies/OBS Dependencie/gson-2.8.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

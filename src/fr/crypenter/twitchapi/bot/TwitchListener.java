@@ -4,7 +4,6 @@ import fr.crypenter.twitchapi.entities.User;
 import fr.crypenter.twitchapi.events.EventMessageReceived;
 
 import java.io.DataInputStream;
-import java.util.List;
 
 public class TwitchListener extends Thread {
 
@@ -45,9 +44,10 @@ public class TwitchListener extends Thread {
                     for(EventMessageReceived eventMessageReceived : twitchBot.getEventMessageReceivedList()) {
                         String author = response.split("!")[0].split("@")[0].replace(":", "");
                         String message = response.split("PRIVMSG")[1].split(":", 0)[1];
-                        eventMessageReceived.onMessageReceived(twitchBot, message, new User(author));
+                        eventMessageReceived.onMessageReceived(twitchBot, twitchBot.getTwitchChannel(), message, new User(author));
                     }
                 }
+
 
             }
         } catch (Exception e) {
